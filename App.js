@@ -17,11 +17,14 @@ import {
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
 
-export function _onPressButton() {
-  alert('You tapped the button!')
-}
+// export function _onPressButton() {
+//   alert('You tapped the button!')
+// }
 
 const App = () => {
+  function _onPressButton() {
+    alert('You tapped the button!')
+  }
   return (
     <View style={styles.container}>
       <View style={styles.buttonContainer}>
